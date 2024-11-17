@@ -1,0 +1,45 @@
+h3:nth-child(1){
+    color: pink;
+}
+#greycol{
+    color: grey;
+}
+.yellow{
+    color: yellow;
+}
+p:nth-child(odd){
+    color: green;
+}
+.text-box>div p {
+    color: red;
+}
+.day{
+    color: aqua;
+}
+.day:hover{
+    color: red;
+}
+.lessons:focus{
+    color: blueviolet;
+}
+.first:not(:last-child){
+    color: chartreuse;
+}
+a[href="#"]:visited{
+    color: yellow;
+}
+.third:nth-child(odd){
+    color: brown;
+}
+.fourth:nth-child(2n){
+    color: green;
+}
+.fifth:nth-child(n+3){
+    color: pink;
+}
+.sixth:nth-child(3n){
+    color: blue;
+}
+.seventh:nth-child(5){
+    color: orange;
+}
